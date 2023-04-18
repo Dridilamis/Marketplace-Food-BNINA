@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <title>Grocery|BNINA</title>
+    <!-- <link rel="stylesheet" href="fastfood.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <section id="home">
+    <nav>
+      <div class="logo">
+          <img src="images/logo.png">
+      </div>
+
+      <ul class="navbar">
+        <li><a href="indexseller.html" >Home</a></1i>
+        <li><a href="menuseller.html" >Menu</a></1i>
+        <li><a href="aboutusseller.html" >About us</a></1i>
+        <li><a href="contactseller.html" >Contact</a></1i>
+        <li><a href="add_product_seller.html" >Add Products</a></1i>
+    </ul>
+
+      <div class="icon">
+          <i class="bx bx-search"></i>
+          <i class="bx bx-heart"></i>
+          <i class="bx bx-shopping-bag"></i>
+      </div>
+  </nav>
+<div class="main">  
+      <h1>
+        <p><b>Hello (customer name) ! <span id="customer-name"></span>!</b></p>
+      </h1>
+      <h2>
+        <p><b>Welcome to our grocery selection ! Find everything you need and more for your pantry and fridge</b></p>
+      </h2>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="product-container">
+
+      <div class="product">
+        <div class="product-image">
+          <img src="images/image13.png" alt="Product 1">
+        </div>
+        <div class="product-info">
+          <h2>Fromage Emmental</h2>
+          <p><strong>Price:</strong>16,50 TND </p>
+          <p><strong>Restaurant:</strong>Ben Yaghlene shops </p>
+        </div>
+        <div class="product-quantity">
+            <span class="quantity-minus">-</span>
+            <input type="number" name="quantity" value="1">
+            <span class="quantity-plus">+</span>
+         </div>         
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="images/image14.png" alt="Product 2">
+        </div>
+        <div class="product-info">
+          <h2>Pate zgougou</h2>
+          <p><strong>Price:</strong> 18,00 TND</p>
+          <p><strong>Restaurant:</strong> Ben Yaghlene shops</p>
+        </div>
+        <div class="product-quantity">
+            <span class="quantity-minus">-</span>
+            <input type="number" name="quantity" value="1">
+            <span class="quantity-plus">+</span>
+         </div>         
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          <img src="images/image15.png" alt="Product 3">
+        </div>
+        <div class="product-info">
+          <h2>Pate  plume courte</h2>
+          <p><strong>Price:</strong> 0,600 TND</p>
+          <p><strong>Restaurant:</strong> Magasin general</p>
+        </div>
+        <div class="product-quantity">
+            <span class="quantity-minus">-</span>
+            <input type="number" name="quantity" value="1">
+            <span class="quantity-plus">+</span>
+         </div>
+      </div>
+    </div>
+
+
+    <div class="product-container">
+
+        <div class="product">
+          <div class="product-image">
+            <img src="images/image16.png" alt="Product 1">
+          </div>
+          <div class="product-info">
+            <h2>Pistache baldi grillée</h2>
+            <p><strong>Price:</strong>6,200 TND</p>
+            <p><strong>Restaurant:</strong>My health box </p>
+          </div>
+          <br>
+          <br>
+          <div class="product-quantity">
+            <span class="quantity-minus">-</span>
+            <input type="number" name="quantity" value="1">
+            <span class="quantity-plus">+</span>
+         </div>
+        </div>
+
+        <div class="product">
+          <div class="product-image">
+            <img src="images/image17.png" alt="Product 2">
+          </div>
+          <div class="product-info">
+            <h2>Brocoli</h2>
+            <p><strong>Price:</strong> 5,400 TND</p>
+            <p><strong>Restaurant:</strong> Ariana vegetable market and grain</p>
+          </div>
+          <br>
+        
+          <div class="product-quantity">
+            <span class="quantity-minus">-</span>
+            <input type="number" name="quantity" value="1">
+            <span class="quantity-plus">+</span>
+         </div>         
+        </div>
+
+        <div class="product">
+          <div class="product-image">
+            <img src="images/image18.png" alt="Product 3">
+        </div>
+
+        <div class="product-info">
+            <h2>Curcuma</h2>
+            <p><strong>Price:</strong> 1,500 TND</p>
+            <p><strong>Restaurant:</strong> My health box</p>
+        </div>
+        <br>
+        <br>
+          
+          <div class="product-quantity">
+            <span class="quantity-minus">-</span>
+            <input type="number" name="quantity" value="1">
+            <span class="quantity-plus">+</span>
+         </div>
+         
+        </div>
+      </div>
+
+
+
+    <script>
+      var customerName = "customer_name"; // Replace with actual customer name
+      document.getElementById("customer-name").textContent = customerName;
+    </script>
+    </section>
+  </body>
+</html>

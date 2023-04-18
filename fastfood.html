@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stylefastfood.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <title>Fast Food Page|BNINA</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <section id="home">
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+
+            <ul class="navbar">
+              <li><a href="index.html" >Home</a></1i>
+              <li><a href="menu" >Menu</a></1i>
+              <li><a href="aboutus.html" >About us</a></1i>
+              <li><a href="contactage.html" >Contact</a></1i>
+              <li><a href="logetsign.html" >login</a></1i>
+          </ul>
+
+            <div class="icon">
+                <i class="bx bx-search"></i>
+                <i class="bx bx-heart"></i>
+                <i class="bx bx-shopping-bag"></i>
+            </div>
+        </nav>
+   
+
+        <div class="main">  
+          <h1>
+            <p><b>Hello, <span id="customer-name"></span>!</b></p>
+          </h1>
+          <h2>
+            <p><b>Ready to tantalize your taste buds with our delicious fast food selection</b></p>
+          </h2>
+        </div>
+        <br>
+        <br>
+        <br>
+    
+        <div class="product-container">
+    
+          <div class="product">
+            <div class="product-image">
+              <img src="images/pepperoni.png" alt="Product 1">
+            </div>
+            <div class="product-info">
+              <h2>Pepperoni</h2>
+              <p><strong>Price:</strong> 14,50 TND</p>
+              <p><strong>Restaurant:</strong> Papa John's Pizza</p>
+            </div>
+            <div class="product-quantity">
+                <span class="quantity-minus">-</span>
+                <input type="number" name="quantity" value="1">
+                <span class="quantity-plus">+</span>
+             </div>         
+          </div>
+    
+          <div class="product">
+            <div class="product-image">
+              <img src="images/sandwich.png" alt="Product 2">
+            </div>
+            <div class="product-info">
+              <h2>Ciabatta Émincé De Bœuf</h2>
+              <p><strong>Price:</strong>8,175DT</p>
+              <p><strong>Restaurant:</strong> Plan B</p>
+            </div>
+            <div class="product-quantity">
+                <span class="quantity-minus">-</span>
+                <input type="number" name="quantity" value="1">
+                <span class="quantity-plus">+</span>
+             </div>         
+          </div>
+    
+          <div class="product">
+            <div class="product-image">
+              <img src="images/image3.png" alt="Product 3">
+            </div>
+            <div class="product-info">
+              <h2>Double cheese bum </h2>
+              <p><strong>Price:</strong> 20,00 TND</p>
+              <p><strong>Restaurant:</strong> Smoky Buns</p>
+            </div>
+            <div class="product-quantity">
+                <span class="quantity-minus">-</span>
+                <input type="number" name="quantity" value="1">
+                <span class="quantity-plus">+</span>
+             </div>
+          </div>
+        </div>
+    
+    
+        <div class="product-container">
+    
+            <div class="product">
+              <div class="product-image">
+                <img src="images/image4.png" alt="Product 1">
+              </div>
+              <div class="product-info">
+                <h2>Pizza cheese </h2>
+                <p><strong>Price:</strong> S/M/L/XL</p>
+                <p><strong>Restaurant:</strong> O’chichi pizza l’aouina</p>
+              </div>
+              <div class="product-quantity">
+                <span class="quantity-minus">-</span>
+                <input type="number" name="quantity" value="1">
+                <span class="quantity-plus">+</span>
+             </div>
+            </div>
+    
+            <div class="product">
+              <div class="product-image">
+                <img src="images/image5.png" alt="Product 2">
+              </div>
+              <div class="product-info">
+                <h2>sandwich king </h2>
+                <p><strong>Price:</strong> 11,00 TND</p>
+                <p><strong>Restaurant:</strong> Sandwich the king aouina</p>
+              </div>
+              <div class="product-quantity">
+                <span class="quantity-minus">-</span>
+                <input type="number" name="quantity" value="1">
+                <span class="quantity-plus">+</span>
+             </div>         
+            </div>
+    
+            <div class="product">
+              <div class="product-image">
+                <img src="images/image6.png" alt="Product 3">
+              </div>
+              <div class="product-info">
+                <h2>Le suisse burger</h2>
+                <p><strong>Price:</strong> 12,00 TND</p>
+                <p><strong>Restaurant:</strong> Sanburg aouina</p>
+              </div>
+              <div class="product-quantity">
+                <span class="quantity-minus">-</span>
+                <input type="number" name="quantity" value="1">
+                <span class="quantity-plus">+</span>
+             </div>
+             
+            </div>
+          </div>
+        </section>
+    
+    
+    
+        <script>
+          var customerName = "customer_name"; // Replace with actual customer name
+          document.getElementById("customer-name").textContent = customerName;
+        </script>
+        </section>
+        
+      </body>
+    </html>
